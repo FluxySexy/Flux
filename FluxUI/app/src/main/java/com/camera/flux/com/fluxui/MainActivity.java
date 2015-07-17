@@ -19,12 +19,17 @@ public class MainActivity extends ActionBarActivity {
         // text view label
         TextView start = (TextView) findViewById(R.id.start);
         TextView channelName = (TextView) findViewById(R.id.channelName);
+        TextView date = (TextView) findViewById(R.id.date);
+        TextView time = (TextView) findViewById(R.id.time);
         // Loading Font Face
         Typeface tf = Typeface.createFromAsset(getAssets(), fontPath);
 
         // Applying font
         start.setTypeface(tf);
         channelName.setTypeface(tf);
+        date.setTypeface(tf);
+        time.setTypeface(tf);
+
     }
 
 
