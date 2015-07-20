@@ -202,6 +202,8 @@ View.OnClickListener switchCameraListener = new View.OnClickListener() {
     View.OnClickListener captureListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
+            boolean start, stop;
+            
             mCamera.takePicture(null, null, mPicture);
         }
     };
