@@ -1,0 +1,2 @@
+C:\Users\DANIEL KENNETH\Documents\GitHub\Flux\AndroidCameraExample\app\build\intermediates\classes\debug
+C:\Users\DANIEL KENNETH\Documents\GitHub\Flux\AndroidCameraExample\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-877855615b9ec76db8f87752e4a48b0dd5ab99a7.jar

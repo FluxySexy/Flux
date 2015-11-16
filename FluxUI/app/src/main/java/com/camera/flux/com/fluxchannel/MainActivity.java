@@ -1,6 +1,7 @@
 package com.camera.flux.com.fluxchannel;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Typeface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -38,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
         date.setTypeface(tf);
         time.setTypeface(tf);
         connectionStatus.setTypeface(tf);
-
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         start.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
                 if(start.getText() == "START") {
